@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Get Startetd</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="las">
+        <div class="ques" id="que"></div>
+        <div class="option" id="ans"></div>
+        <button id="rem" onclick="checkAns();">Next</button>
+        <h1 id="say"></h1>
+        <script src="game.js"></script>
+        <br>
+        </div>
+    </div>
+
+        <button id="clear"  class="feedb hide" onclick="dis()">Share your feed Back</button>
+        <input type="range" min="0" max="10" id="feed" class="hide ofeed">
+    
+      
+</body>
+</html>
